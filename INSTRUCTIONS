@@ -1,4 +1,21 @@
-🔹 Instructions Section for README.md
+# Python Mini VPN by Ata Ur Rehman Zaheer
+
+A simple Python-based mini VPN project for **educational purposes**.  
+Demonstrates basic client-server communication and networking using Python sockets.
+
+---
+
+## Features
+- Python socket-based server-client connection
+- Custom welcome message: "This VPN is made by Ata Ur Rehman Zaheer"
+- Beginner-friendly code for learning networking concepts
+- DHCP-style message assignment simulation
+
+⚠️ Note: This project is **for educational purposes only**.  
+It is **not a real VPN** and does **not provide encryption or anonymity**.
+
+---
+
 ## Setup & Running Instructions
 
 ### Prerequisites
@@ -10,44 +27,41 @@
 
 ### Steps
 
-1. **Clone the repository** (or download ZIP)
+1. **Clone the repository**
 ```bash
-https://github.com/unkownata08/Python-Based-VPN-by-ATA-UR-REHMAN-ZAHEER.git
+git clone https://github.com/unkownata08/Python-Based-VPN-by-ATA-UR-REHMAN-ZAHEER.git
+cd Python-Based-VPN-by-ATA-UR-REHMAN-ZAHEER
 
-
-2. Run the Server:
+2. **Run the Server**
+Choose which server file you want to use (vpn_server.py):
 
 python vpn_server.py
 
-
-You should see in terminal:
-
+You should see:
 [+] VPN Server running on port 5555
 [i] This VPN is made by Ata Ur Rehman Zaheer
 
 
-3. Run the Client (in a new terminal window)
+3. Run the Client (in a new terminal window):
 
-python vpn_client.py
-
+python Client.py
 
 Expected output:
-
 [VPN Message]: This VPN is made by Ata Ur Rehman Zaheer
+
 
 Notes
 
-1.Make sure the server is running before starting the client.
+1. Make sure the server is running before starting the client.
 
-2. This project is for educational purposes only — it is not a real VPN and does not provide encryption or anonymity.
+2. Press CTRL + C to stop the server safely.
 
-3. You can run the server multiple times; CTRL + C stops it safely.
+3. Works on Windows, Linux, or Mac with Python 3.x.
 
-4. Works on Windows, Linux, or Mac with Python 3.x.
 
-Optional Enhancements
+Optional Enhancements:
 
-1. You can add encryption for messages
+1. Add encryption for messages
 
 2. Handle multiple clients simultaneously
 

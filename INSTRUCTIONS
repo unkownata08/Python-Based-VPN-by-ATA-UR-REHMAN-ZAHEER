@@ -1,0 +1,54 @@
+🔹 Instructions Section for README.md
+## Setup & Running Instructions
+
+### Prerequisites
+- Python 3.x installed on your system
+- Basic knowledge of running Python scripts in CMD/Terminal
+- (Optional) Git installed if you want to clone the repository
+
+---
+
+### Steps
+
+1. **Clone the repository** (or download ZIP)
+```bash
+https://github.com/unkownata08/Python-Based-VPN-by-ATA-UR-REHMAN-ZAHEER.git
+
+
+2. Run the Server:
+
+python vpn_server.py
+
+
+You should see in terminal:
+
+[+] VPN Server running on port 5555
+[i] This VPN is made by Ata Ur Rehman Zaheer
+
+
+3. Run the Client (in a new terminal window)
+
+python vpn_client.py
+
+
+Expected output:
+
+[VPN Message]: This VPN is made by Ata Ur Rehman Zaheer
+
+Notes
+
+1.Make sure the server is running before starting the client.
+
+2. This project is for educational purposes only — it is not a real VPN and does not provide encryption or anonymity.
+
+3. You can run the server multiple times; CTRL + C stops it safely.
+
+4. Works on Windows, Linux, or Mac with Python 3.x.
+
+Optional Enhancements
+
+1. You can add encryption for messages
+
+2. Handle multiple clients simultaneously
+
+3. Customize the welcome message
